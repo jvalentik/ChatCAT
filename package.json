@@ -1,0 +1,25 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Sample NodeJS application",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/powerj-sk/ChatCAT.git"
+  },
+  "author": "Jan Valentik",
+  "license": "ISC",
+  "engines": {
+    "node": "6.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/powerj-sk/ChatCAT/issues"
+  },
+  "homepage": "https://github.com/powerj-sk/ChatCAT#readme",
+  "dependencies": {
+    "express": "4.13.3"
+  }
+}
