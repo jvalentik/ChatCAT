@@ -1,0 +1,5 @@
+{
+  "host": "http://localhost:3000",
+  "dbURI": "mongodb://adminid:123Janko@ds055842.mlab.com:55842/chatcatproject",
+  "sessionSecret": "cajdskja30nf"
+}
