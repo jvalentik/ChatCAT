@@ -5,7 +5,15 @@
   "fb": {
     "clientID": "674591989364944",
     "clientSecret": "bd3f6180b71002a3579d625d235f67bc",
-    "callbackURL": "http://localhost:3000/auth/facebook/callback",
+    "callbackURL": "//localhost:3000/auth/facebook/callback",
     "profileFields": ["id", "displayName", "photos"]
+  },
+  "twitter": {
+    "consumerKey": "yspCvE5ci65aQ6AC9WujcUjit",
+    "consumerSecret": "SwoJnOVN61Ch8iYvLsnHpPtcOBzGOvxiUPaodyBGIPEkHHDxki",
+    "callbackURL": "//localhost:3000/auth/twitter/callback",
+    "profileFields": ["id", "displayName", "photos"]
+
+
   }
 }
