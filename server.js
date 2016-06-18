@@ -17,4 +17,4 @@ app.use('/', chatCat.router);
 
 
 
-app.listen(app.get('port'), () => console.log('ChatCAT running on Port: ', app.get('port')));
+chatCat.ioServer(app).listen(app.get('port'), () => console.log('ChatCAT running on Port: ', app.get('port')));
